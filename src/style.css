@@ -15,7 +15,7 @@
 
 .title {
   padding: 3%;
-  color: rgb(112, 189, 122);;
+  color: rgb(112, 189, 122);
 }
 
 form {
@@ -74,8 +74,8 @@ button {
 }
 
 .clear a {
-  cursor: pointer;
-  color: rgbargb(112, 189, 122);
+  cursor: pointer; 
+  color: rgb(163, 172, 164);
 }
 
 .clear a:hover {
