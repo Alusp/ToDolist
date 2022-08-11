@@ -15,7 +15,7 @@
 
 .title {
   padding: 3%;
-  color: orange;
+  color: rgb(112, 189, 122);;
 }
 
 form {
@@ -68,23 +68,23 @@ button {
 }
 
 .clear {
-  background-color: rgba(240, 240, 240, 0.493);
+  background-color: rgb(112, 189, 122);
   text-align: center;
   padding: 3%;
 }
 
 .clear a {
   cursor: pointer;
-  color: rgba(255, 166, 0, 0.507);
+  color: rgbargb(112, 189, 122);
 }
 
 .clear a:hover {
-  color: orange;
+  color: rgb(13, 27, 117);
   text-decoration: underline;
   font-weight: bold;
 }
 
 .checked {
   text-decoration: line-through;
-  color: rgba(129, 129, 129, 0.548);
+  color: rgba(97, 20, 20, 0.548);
 }
