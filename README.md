@@ -2,7 +2,7 @@
 
 # Project Name
 
-TODO-LIst is a project that is based on the html, javaScript, CSS and webpack exercise with add Remove Feature.
+TODO-LIst is a project that is based on the html, javaScript, CSS and webpack exercise with add Remove Feature with Interactive list.
 
 
 ![screenshot](images/Screenshot2.png)
