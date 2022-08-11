@@ -1,14 +1,30 @@
-import _ from 'lodash';
 import './style.css';
+import render from './todosListeners.js';
+import Todos from './allTodos.js';
 
-function component() {
-  const element = document.createElement('div');
+const todosList = new Todos();
+render(todosList);
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
+// add todo
+const addTodoBtn = document.querySelector('.add-btn');
+addTodoBtn.addEventListener('click', () => {
+  const id = `id${Math.random().toString(16).slice(2)}`;
+  const description = document.querySelector('.input-todo').value.trim();
+  const completed = false;
+  const index = todosList.list.length + 1;
 
-  return element;
-}
+  const newTodo = {
+    id, description, completed, index,
+  };
+  if (description) {
+    todosList.addTodo(newTodo);
+    render(todosList);
+  }
+});
 
-document.body.appendChild(component());
+// clear all completed todos
+const clearBtn = document.querySelector('.clear-btn');
+clearBtn.addEventListener('click', () => {
+  todosList.clearCompletedTodos();
+  render(todosList);
+});
