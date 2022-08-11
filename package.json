@@ -4,7 +4,8 @@
   "description": "A Todo List Structure Approach",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/Alusp/ToDolist/issues"
   },
-  "homepage": "https://github.com/Alusp/ToDolist#readme"
+  "homepage": "https://github.com/Alusp/ToDolist#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
