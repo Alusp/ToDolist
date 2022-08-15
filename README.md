@@ -5,7 +5,7 @@
 TODO-LIst is a project that is based on the html, javaScript, CSS and webpack exercise with add Remove Feature with Interactive list.
 
 
-![screenshot](images/Screenshot2.png)
+![Demo-Link](https://alusp.github.io/ToDolist/?)
 
 ## Built With
 
@@ -43,7 +43,7 @@ Download and install browser.
 👤 **Alusine Jalloh**
 
 - GitHub: [@Alusp](https://github.com/Alusp/World-Health-Assembly)
-- LinkedIn: [@alusine-jalloh-873951209](https://www.linkedin.com/in/alusine-jalloh-873951209
+- LinkedIn: [@alusine-jalloh-873951209](https://www.linkedin.com/in/alusine-jalloh
 )
  
 ## 🤝 Contributing
