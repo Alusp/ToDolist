@@ -1,13 +1,13 @@
+import { getFromLocalStorage, setLocalStorage } from './localStorage.js';
+
 export default class Todos {
   constructor() {
-    this.list = localStorage.getItem('all-todos')
-      ? JSON.parse(localStorage.getItem('all-todos'))
-      : [];
+    this.list = getFromLocalStorage();
   }
 
   addTodo(todo) {
     this.list.push(todo);
-    localStorage.setItem('all-todos', JSON.stringify(this.list));
+    setLocalStorage(this.list);
   }
 
   removeTodo(todoID) {
@@ -15,7 +15,7 @@ export default class Todos {
     this.list.forEach((todo, index) => {
       todo.index = index + 1;
     });
-    localStorage.setItem('all-todos', JSON.stringify(this.list));
+    setLocalStorage(this.list);
   }
 
   editTodo(todoId, todoDescription) {
@@ -25,13 +25,13 @@ export default class Todos {
       }
       return todo;
     });
-    localStorage.setItem('all-todos', JSON.stringify(this.list));
+    setLocalStorage(this.list);
   }
 
   completeTodo(todoId, status) {
     const selected = this.list.findIndex((element) => element.id === todoId);
     this.list[selected].completed = status;
-    localStorage.setItem('all-todos', JSON.stringify(this.list));
+    setLocalStorage(this.list);
   }
 
   clearCompletedTodos() {
@@ -39,6 +39,6 @@ export default class Todos {
     this.list.forEach((todo, index) => {
       todo.index = index + 1;
     });
-    localStorage.setItem('all-todos', JSON.stringify(this.list));
+    setLocalStorage(this.list);
   }
 }

@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+:root {
+  --primary-color: rgb(216, 216, 216);
+}
+
 .hello {
   color: rgb(112, 189, 122);
 }
@@ -23,9 +27,9 @@ form {
   justify-content: space-between;
   padding-right: 0;
   position: relative;
-  border-top: 0.6px solid rgb(216, 216, 216);
+  border-top: 0.6px solid var(--primary-color);
   border-right: none;
-  border-bottom: 0.6px solid rgb(216, 216, 216);
+  border-bottom: 0.6px solid var(--primary-color);
   border-left: none;
 }
 
@@ -51,7 +55,7 @@ input[type='text']:focus {
 
 .todo-item {
   padding: 3%;
-  border-bottom: 0.6px solid rgb(216, 216, 216);
+  border-bottom: 0.6px solid  var(--primary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
