@@ -5,7 +5,6 @@ import Todos from './allTodos.js';
 const todosList = new Todos();
 render(todosList);
 
-// add todo
 const addTodoBtn = document.querySelector('.add-btn');
 addTodoBtn.addEventListener('click', () => {
   const id = `id${Math.random().toString(16).slice(2)}`;
@@ -22,7 +21,6 @@ addTodoBtn.addEventListener('click', () => {
   }
 });
 
-// clear all completed todos
 const clearBtn = document.querySelector('.clear-btn');
 clearBtn.addEventListener('click', () => {
   todosList.clearCompletedTodos();
