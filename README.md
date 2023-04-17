@@ -68,7 +68,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Conference Live Demo](https://github.com/Alusp/ToDolist/?)
+- [Here](https://github.com/Alusp/ToDolist/?)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
