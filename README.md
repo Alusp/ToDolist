@@ -68,7 +68,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Here](https://github.com/Alusp/ToDolist/?)
+- [Here](https://alusp.github.io/ToDolist/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -123,7 +123,7 @@ Type the following command in the terminal
  Project reside in this Repo and is hosted on Github pages. You can clone the repo or download the files manually to your local machine.
  below is the online link for this website:
 
-[Demo-Link](https://alusp.github.io/ToDolist/?)
+[Demo-Link](https://alusp.github.io/ToDolist/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
